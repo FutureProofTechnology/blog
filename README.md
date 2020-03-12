@@ -1,4 +1,4 @@
-# blog
+# Blog project
 This blog is for trainees
 
 # Stack

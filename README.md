@@ -1,2 +1,2 @@
 # blog
-This blog is for our trainees
+This blog is for trainees

@@ -7,7 +7,7 @@ Django 2.2
 Bootstrap 4.4  
 
 # Resources  
-https://githowto.com/ - tutorail for git.  
+https://githowto.com/ - tutorial for git.  
 https://nvie.com/posts/a-successful-git-branching-model/ - branching model we use.  
     In Russian (https://habr.com/ru/post/106912/)  
 https://docs.djangoproject.com/en/2.2/ - django documentation.  

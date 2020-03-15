@@ -2,7 +2,7 @@
 This blog is for trainees
 
 # Stack
-Python 3.8  
+Python 3.5 (changed because we dependent on our staging server)  
 Django 2.2  
 Bootstrap 4.4  
 

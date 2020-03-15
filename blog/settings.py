@@ -25,7 +25,7 @@ load_dotenv(dotenv_path=os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = os.getenv('SECRET_KEY', ')qh$p3lvwlxczs#sxvld8s^6pfipr_6v*p5f9$et$8u(8qvt^2')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DEBUG', False)
 
 ALLOWED_HOSTS = ['thundera.pythonanywhere.com', '127.0.0.1']
 

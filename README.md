@@ -17,3 +17,45 @@ https://www.w3schools.com/bootstrap4/default.asp - bootstrap tutorial.
 https://www.w3schools.com/html/default.asp - HTML tutorial.  
 https://www.w3schools.com/css/default.asp - CSS tutorial.  
 https://www.w3schools.com/js/default.asp - JavaScript tutorial.  
+
+# Development setup  
+Go to a directory with all your projects.
+```bash  
+cd /path/to/directory/with/your/projcts/
+```  
+Clone the project. Make sure you properly set up your ssh key for using with github.com.
+```bash  
+git clone git@github.com:TheFutureProofTechnology/blog.git  
+```  
+Go to the project directory.
+```bash  
+cd blog  
+```  
+Setup a virtual environment.
+```bash  
+virtualenv --python=python3.5 venv  
+```  
+Activate the virtual environment.
+```bash  
+source venv/bin/activate
+```  
+Install all dependencies.
+```bash  
+pip install -r requirements.txt
+```  
+Copy an environment file and setup your variables.
+```bash  
+cp .env.example .env
+```  
+Run migrations.
+```bash  
+./manage.py migrate
+```  
+Create a superuser. 
+```bash  
+./manage.py createsuperuser
+```  
+Run your dev server.
+```bash  
+./manage.py runserver
+```  
